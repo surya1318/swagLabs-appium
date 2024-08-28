@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-26T19:35:07 IST" name="Default suite" finished-at="2024-08-26T19:36:15 IST" duration-ms="67518">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunCuke@2fb0623e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-26T19:35:07 IST" name="Default test" finished-at="2024-08-26T19:36:15 IST" duration-ms="67518">
+      <class name="testRunner.RunCuke">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:34:38 IST" name="initialize" finished-at="2024-08-26T19:35:07 IST" duration-ms="29248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:35:07 IST" name="setUpClass" finished-at="2024-08-26T19:35:09 IST" duration-ms="1528" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4c697c25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:35:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-26T19:35:22 IST" duration-ms="13304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the product details on the product information page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product order flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:35:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-26T19:35:33 IST" duration-ms="11454" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate the product details on the product information page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product order flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:35:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-26T19:35:47 IST" duration-ms="13931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate product information on Product Details page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Product order flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:35:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-26T19:35:57 IST" duration-ms="9258" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Login functionality of swag labs application for valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:35:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-26T19:36:06 IST" duration-ms="9298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Login functionality of swag labs application for valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:36:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-26T19:36:14 IST" duration-ms="8282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Login functionality of swag labs application with lockedout username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:36:14 IST" name="tearDownClass" finished-at="2024-08-26T19:36:15 IST" duration-ms="371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testRunner.RunCuke@2fb0623e]" started-at="2024-08-26T19:36:15 IST" name="quit" finished-at="2024-08-26T19:36:15 IST" duration-ms="641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testRunner.RunCuke -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
